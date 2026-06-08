@@ -54,22 +54,6 @@ One command to install any agent into any supported IDE. The config files are ge
 
 ---
 
-## Session Replay
-
-**Full session overview with token counts, models, tools, and turn-by-turn timeline:**
-
-![Session detail showing tokens, tools, models, and turns](docs/img/ses1.png)
-
-**Every turn captured: user prompt, tool calls, thinking block, assistant response:**
-
-![Turn expanded showing user prompt, thinking, and response](docs/img/complete_capture_thinking_response.png)
-
-**Drill into any span to see exact tool inputs and outputs:**
-
-![Span detail showing bash command input and full output](docs/img/span.png)
-
----
-
 ## Quick Start
 
 ### One-line server install
@@ -155,6 +139,22 @@ Browse published agents, see which IDEs they support, check download counts and 
 **Components library: MCPs, Skills, Hooks, Prompts, Sandboxes:**
 
 ![Component registry showing MCP servers](docs/img/component_registry.png)
+
+---
+
+## Session Replay
+
+**Full session overview with token counts, models, tools, and turn-by-turn timeline:**
+
+![Session detail showing tokens, tools, models, and turns](docs/img/ses1.png)
+
+**Every turn captured: user prompt, tool calls, thinking block, assistant response:**
+
+![Turn expanded showing user prompt, thinking, and response](docs/img/complete_capture_thinking_response.png)
+
+**Drill into any span to see exact tool inputs and outputs:**
+
+![Span detail showing bash command input and full output](docs/img/span.png)
 
 ---
 
